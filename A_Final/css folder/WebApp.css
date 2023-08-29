@@ -1,0 +1,165 @@
+body{
+
+    background-image: url(https://images.idgesg.net/images/article/2017/10/wireless_network_internet_of_things_iot_thinkstock_853701554-100739367-large.jpg?auto=webp&quality=85,70);
+    
+ }
+ 
+ header
+ 
+ {
+ 
+ display: grid;
+ 
+ grid-template-columns: 1fr 3fr 7fr;
+ 
+ grid-template-rows: repeat(3,auto);
+ 
+ border-bottom: 1px solid;
+ 
+ margin: 25px;
+ 
+ }
+ 
+ .button a
+ 
+ {
+ 
+     text-decoration: none;
+ 
+     color: white;
+ 
+ }
+ .button
+ {
+ 
+     background-color: rgba(162, 215, 228, 0.888);
+ 
+     padding: 10px;
+ 
+     margin-left: 10px;
+ 
+     width: 150px;
+ 
+     height: 70px;
+     border-radius: 10px;
+ 
+  
+ 
+ }
+ 
+ .list
+ 
+ {
+ 
+     list-style-type:none;
+ 
+     display: inline-block;
+ 
+    
+ 
+    
+ 
+ }
+ 
+ .Container
+ 
+ {
+ 
+     display: grid;
+ 
+ }
+ 
+ .Internet
+ 
+ {
+ 
+     border: 2px solid blue;
+ 
+     grid-column-start: 1;
+ 
+     grid-column-end: 4;
+ 
+     background-color: rgba(197, 248, 242, 0.504);
+ 
+    
+ 
+ }
+ 
+ .head
+ 
+ {
+ 
+     text-align: center;
+     background-color: rgba(197, 248, 242, 0.808);
+ 
+ 
+ }
+ 
+ .heading
+ 
+ {
+ 
+     grid-column-start: 1;
+ 
+     grid-column-end: 4;
+ 
+ 
+ }
+ 
+ .WebApp
+ 
+ {
+ 
+     grid-column-start: 1;
+ 
+     grid-column-end: 2;
+ 
+     border: 2px solid blue;
+ 
+     padding: 10px;
+     background-color: rgba(197, 248, 242, 0.703);
+ 
+ 
+  
+ 
+ }
+ 
+ .Client
+ 
+ {
+ 
+     grid-column-start: 2;
+ 
+     grid-column-end: 3;
+ 
+     border: 2px solid blue;
+ 
+     padding: 10px;
+     background-color: rgba(197, 248, 242, 0.704);
+ 
+ 
+  
+ 
+ }
+ 
+ .Server
+ 
+ {
+ 
+     grid-column-start: 3;
+ 
+     grid-column-end: 4;
+ 
+     border: 2px solid blue;
+ 
+     padding: 10px;
+     background-color: rgba(197, 248, 242, 0.701);
+ 
+ 
+ 
+ }
+ footer
+ {
+     text-align: center;
+ }
+ 

@@ -1,0 +1,26 @@
+
+.Body{
+    color: whitesmoke;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-blue-technology-future-artificial-intelligence-science-image_177955.jpg);
+}
+.List{
+    color: whitesmoke;
+    
+}
+.button
+ {
+ 
+     background-color: blue;
+ 
+     padding: 10px;
+ 
+     margin-left: 10px;
+ 
+     width: 150px;
+ 
+     height: 70px;
+     border-radius: 10px;
+ 
+  
+ 
+ }

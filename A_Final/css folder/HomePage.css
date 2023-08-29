@@ -1,0 +1,175 @@
+
+.Container
+{
+    display: grid;
+    grid-gap: 10px;
+    margin: 0 auto;
+    grid-auto-rows: minmax(10px,auto);
+    grid-template-columns: repeat(6,1fr);
+    grid-template-areas: 
+    "head head head head head head"
+    "head head head head head head"
+    "Main Main Main Main Main Main"
+    "Main Main Main Main Main Main"
+    "Main Main Main Main Main Main"
+    "Main Main Main Main Main Main"
+    "Sum Sum Sum Sum Sum Sum"
+    "Sum Sum Sum Sum Sum Sum"
+    "Footer Footer Footer Footer Footer Footer";
+
+}
+header
+{
+display: grid;
+grid-template-columns: 1fr 3fr 7fr;
+grid-template-rows: repeat(3,auto);
+border-bottom: 1px solid;
+margin: 25px;
+}
+.button a 
+{
+    text-decoration: none;
+    color: white;
+}
+.button
+{
+    background-color: rgb(0, 255, 81);
+    padding: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 70px;
+    border-radius: 15px;
+
+}
+.list
+{
+    list-style-type:none;
+    display: inline-block;
+    
+    
+}
+.main
+{
+    grid-area: Main;
+    display: grid;
+    grid-gap: 10px;
+    margin: 0 auto;
+    grid-auto-rows: minmax(100px,auto);
+    grid-template-columns: repeat(6,1fr);
+    grid-template-areas:
+    "heading heading heading heading heading heading"
+    "article article article article article article"
+    "article article article article article article"
+    "article article article article article article";
+
+}
+.Heading
+{
+    grid-area: heading;
+    text-align: center;
+    color: white;
+}
+.articles
+{
+    grid-area: article;
+    display: grid;
+    grid-gap: 10px;
+    margin: 0 auto;
+    grid-auto-rows: minmax(100px,auto);
+    grid-template-columns: repeat(6,1fr);
+    grid-template-areas:
+    "Art1 Art1 Art2 Art2 Art3 Art3"
+    "Art1 Art1 Art2 Art2 Art3 Art3"
+    "Art1 Art1 Art2 Art2 Art3 Art3";
+    text-align: justify;
+    color: black;
+}
+.paragraph
+{
+    padding: 10px;
+}
+.Arts
+{
+    border: 2px inset rgb(0, 235, 126) ;
+    border-radius: 20px;
+    border-color: rgb(4, 157, 78);
+    box-shadow: 0 0 20px #06f71e;
+    
+}
+.art1
+{
+    grid-area: Art1;
+    color: whitesmoke;
+}
+.art2
+{
+    grid-area: Art2;
+    color: whitesmoke;
+}
+.art3
+{
+    grid-area: Art3;
+    color: whitesmoke;
+    
+}
+.summary
+{
+    grid-area: Sum;
+
+}
+.summary h2
+{
+    text-align: center;
+    color: black;
+}
+.summary p
+{
+    text-align: justify;
+    color: whitesmoke;
+}
+.footer
+{
+    grid-area: Footer;
+    text-align: center;
+    color: black;
+    background-color: rgb(3, 255, 171);
+    height: 80px;
+    padding-top: 25px;
+    margin-top: 5px;
+
+}
+
+.list
+{
+    list-style-type:none;
+    display: inline-block;
+    
+}
+.button a 
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.button
+{
+    background-color: teal;
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 150px;
+
+}
+body{
+    background-color: teal;
+}
+.Logo{
+    grid-area: auto;
+    height: 200px;
+    width: 200px;
+}
+.Nav{
+    border-bottom: 2px solid  rgb(0, 255, 242) ;
+}
+.body{
+    background-image: url(https://img.freepik.com/free-photo/mixture-green-blue-acrylic-paint_23-2148097553.jpg?size=626&ext=jpg);
+}

@@ -1,0 +1,170 @@
+body
+{
+    background-image: url(https://media.gettyimages.com/id/1398106428/video/4k-technologic-background-loopable.jpg?s=640x640&k=20&c=rMEj2sNcKIkJkjXnLeuX-wZQP-ivn677dUyNPc_J8lM=);
+}
+.header{
+
+
+}
+
+.logo
+
+{
+
+    height: 150px;
+
+    width: 150px;
+
+    background-size: coverS;
+
+}
+
+.button a
+
+{
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.button
+
+{
+
+    background-color: rgba(44, 108, 70, 0.877);
+
+    padding: 10px;
+
+    margin-left: 10px;
+
+    width: 150px;
+
+    height: 70px;
+    border-radius: 10px;
+
+ 
+
+}
+
+.list
+
+{
+
+    list-style-type:none;
+
+    display: inline-block;
+
+   
+
+   
+
+}
+
+.Container
+
+{
+
+    display: grid;
+
+}
+
+.Heading
+
+{
+
+    grid-column-start: 1;
+
+    grid-column-end: 3;
+
+    border: 2px solid rgba(45, 223, 54, 0.863);
+
+    text-align: center;
+
+}
+
+.left
+
+{
+
+    grid-column-start: 1;
+
+    grid-column-end: 2;
+
+    border: 2px solid rgb(45, 223, 54);
+
+    padding: 5px;
+    background-color: rgba(34, 139, 34, 0.801);
+
+}
+
+.right
+
+{
+
+    grid-column-start: 2;
+
+    grid-column-end: 3;
+
+    border: 2px solid rgb(45, 223, 54);
+
+    padding: 5px;
+    background-color:   rgba(34, 139, 34, 0.801);
+
+}
+
+.headingtable
+
+{
+
+    text-align: center;
+
+}
+
+table
+
+{
+
+    border-collapse: collapse;
+
+    width: 100%;
+    background-color: rgba(34, 139, 34, 0.801);
+
+}
+
+ 
+
+th, td {
+
+    border: 1px solid black;
+
+    padding: 8px;
+
+    text-align: left;
+
+}
+
+ 
+
+th {
+
+    background-color: #095d15d4;
+
+}
+
+h2
+
+{
+
+    text-align: center;
+
+}
+
+footer
+
+{
+
+    text-align: center;
+
+}
